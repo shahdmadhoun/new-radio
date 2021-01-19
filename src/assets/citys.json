@@ -1,0 +1,39 @@
+[  
+    {"name":"Hebron", "code":"HE",
+        "stations": [
+            {
+                "name": "Hebron1",
+                "url": "http://rs.hadara.ps:8000/;stream.mp33&13202692901&duration=99999&id=scplayer&autostart=true"
+            },
+            {
+                "name": "Hebron2",
+                "url": "http://tunein.com/embed/player/s109975/"
+            }
+
+        ]
+    },  
+    {"name":"jerusalem", "code":"JU",
+        "stations": [
+            {
+                "name": "jerusalem",
+                "url": "http://rs.hadara.ps:8000/;stream.mp33&13202692901&duration=99999&id=scplayer&autostart=true"
+            }
+        ]
+    }, 
+    {"name":"Nables", "code":"NA",
+        "stations": [
+            {
+                "name": "Nables",
+                "url": "http://rs.hadara.ps:8000/;stream.mp33&13202692901&duration=99999&id=scplayer&autostart=true"
+            }
+        ]
+    }, 
+    {"name":"Ramallah", "code":"Ramallah",
+        "stations": [
+            {
+                "name": "Ramallah",
+                "url": "http://rs.hadara.ps:8000/;stream.mp33&13202692901&duration=99999&id=scplayer&autostart=true"
+            }
+        ]
+    }
+] 

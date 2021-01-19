@@ -1,0 +1,18 @@
+<div>
+  <label>choose city</label>
+  <ul>
+      <li *ngFor ="let city of cityData"><a href="#" (click)="select(city);">{{city.name}}</a></li>
+  </ul>
+</div>
+
+<div>
+  <label>stations</label>
+      <p *ngFor ="let city of cityData"><a *ngIf = "city === selected" href="#">{{city.stations.name}}</a></p>
+</div>
+<!-- <label>choose city code: </label>
+<input  [(ngModel)]="cityCode" type="text">
+
+<app-list [cityCode]="cityCode" ></app-list> -->
+
+
+
